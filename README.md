@@ -3,6 +3,8 @@ This repository provides a JSON file with kanji readings. ~13600 covered charact
 The reading data is derived from Wiktionary, accessing its {{ja-readings}} template to gather each reading and put it in its respective categories.
 By this token, the data are available under the licenses specified by the Wiktionary project, namely the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://en.wiktionary.org/wiki/Wiktionary:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) and the [GNU Free Documentation License](https://en.wiktionary.org/wiki/Wiktionary:GNU_Free_Documentation_License). You can choose which license to use contents under. I wouldn't be saying this principally, but we can't abuse the work of Wiktionarians by flouting these terms. However, the licenses are both very permissive, and loosely you can do anything with the data as long as you attribute the source, Wiktionary, and don't further restrict access to the original data in your own project. On my end, I impose no restrictions, and so the only license to worry about is whatever it says in the Wiktionary one.
 
+Besides the kanji reading data itself, I include a shoddy statistical count-up of different properties, such as which readings are most common, which unique-readings-per-kanji are most common, and which readings are most common per category.
+
 ## Data layout
 The contents of the JSON are arranges as follows:
 - The JSON is arranged as kanji-readings pairs, where each kanji is a key in the JSON object / dictionary.
